@@ -60,11 +60,11 @@
 <h3 align="center">⚙️ REALITY ENGINE // ACTIVE MODULES</h3>
 
 <div align="center">
-<img src="assets/svg/icons.svg" width="100%" alt="Tech stack module icons"/>
+<img src="assets/icons.svg" width="100%" alt="Tech stack module icons"/>
 </div>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= NEURAL ENGINE / SKILLS ================= -->
@@ -72,7 +72,7 @@
 <h3 align="center">🧬 NEURAL ENGINE // CORE PROFICIENCY SCAN</h3>
 
 <div align="center">
-<img src="assets/svg/skills.svg" width="100%" alt="Skill proficiency scan"/>
+<img src="assets/skills.svg" width="100%" alt="Skill proficiency scan"/>
 </div>
 
 <details>
@@ -102,13 +102,13 @@ core/
 </details>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= MISSION CONTROL / PROJECT LAUNCHER ================= -->
 
 <div align="center">
-<img src="assets/svg/mission.svg" width="100%" alt="Mission control"/>
+<img src="assets/mission.svg" width="100%" alt="Mission control"/>
 </div>
 
 <br/>
@@ -176,7 +176,7 @@ core/
 </table>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= MISSION TIMELINE ================= -->
@@ -184,11 +184,11 @@ core/
 <h3 align="center">🛰️ MISSION TIMELINE</h3>
 
 <div align="center">
-<img src="assets/svg/timeline.svg" width="100%" alt="Mission timeline"/>
+<img src="assets/timeline.svg" width="100%" alt="Mission timeline"/>
 </div>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= TERMINAL COMMANDS ================= -->
@@ -196,11 +196,11 @@ core/
 <h3 align="center">💻 DEVELOPER CONSOLE // TERMINAL COMMANDS</h3>
 
 <div align="center">
-<img src="assets/svg/terminal.svg" width="100%" alt="Developer console"/>
+<img src="assets/terminal.svg" width="100%" alt="Developer console"/>
 </div>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= SYSTEM DIAGNOSTICS (LIVE) ================= -->
@@ -221,7 +221,7 @@ core/
 </p>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= FUTURE PROTOCOL / OUTGOING TRANSMISSION ================= -->
@@ -235,5 +235,5 @@ core/
 </p>
 
 <div align="center">
-<img src="assets/svg/footer.svg" width="100%" alt="footer"/>
+<img src="assets/footer.svg" width="100%" alt="footer"/>
 </div>
