@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="assets/svg/banner.svg" width="100%" alt="Prince Prajapati — Reality Engine"/>
+<img src="assets/banner.svg" width="100%" alt="Prince Prajapati — Reality Engine"/>
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="assets/svg/boot.svg" width="100%" alt="AI boot sequence"/>
+<img src="assets/boot.svg" width="100%" alt="AI boot sequence"/>
 </div>
 
 <div align="center">
-<img src="assets/svg/loading.svg" width="100%" alt="Operating system status"/>
+<img src="assets/loading.svg" width="100%" alt="Operating system status"/>
 </div>
 
 <br/>
@@ -52,7 +52,7 @@
 </table>
 
 <div align="center">
-<img src="assets/svg/divider.svg" width="100%" alt="divider"/>
+<img src="assets/divider.svg" width="100%" alt="divider"/>
 </div>
 
 <!-- ================= REALITY ENGINE / STACK ================= -->
