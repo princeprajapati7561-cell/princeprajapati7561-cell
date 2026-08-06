@@ -208,16 +208,11 @@ core/
 <h3 align="center">📟 SYSTEM DIAGNOSTICS // LIVE TELEMETRY</h3>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=princeprajapati7561-cell&show_icons=true&theme=dark&bg_color=000000&title_color=0ea5ff&icon_color=0ea5ff&text_color=d1d5db&border_color=1c1d21&border_radius=12&hide_border=false" width="49%" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princeprajapati7561-cell&layout=compact&theme=dark&bg_color=000000&title_color=0ea5ff&text_color=d1d5db&border_color=1c1d21&border_radius=12&hide_border=false" width="42%" alt="Top languages"/>
+<img src="metrics.svg" width="100%" alt="GitHub metrics — activity, community, repositories, languages, calendar"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=princeprajapati7561-cell&theme=dark&background=000000&stroke=1c1d21&ring=0ea5ff&fire=0ea5ff&currStreakLabel=0ea5ff&border=1c1d21" width="65%" alt="Contribution streak"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=princeprajapati7561-cell&theme=react-dark&bg_color=000000&color=0ea5ff&line=0ea5ff&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+<img src="metrics.terminal.svg" width="100%" alt="GitHub metrics — terminal readout"/>
 </p>
 
 <div align="center">
