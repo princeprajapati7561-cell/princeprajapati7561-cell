@@ -1,0 +1,37 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fadeIn { from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);} }
+      @keyframes blink { 0%,49%{opacity:1;} 50%,100%{opacity:0;} }
+      .out { opacity:0; animation: fadeIn .35s ease-out forwards; font-family: Consolas, Menlo, monospace; font-size:14px; }
+      .o0{animation-delay:1.9s;} .o1{animation-delay:2.3s;} .o2{animation-delay:2.7s;} .o3{animation-delay:3.1s;} .o4{animation-delay:3.5s;} .o5{animation-delay:3.9s;}
+      .cursor{animation:blink 1s step-end infinite;}
+    </style>
+    <linearGradient id="tPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0b0d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="320" rx="12" fill="url(#tPanel)" stroke="#1c1d21" stroke-width="1.5"/>
+  <rect width="1000" height="40" rx="12" fill="#0d0e11"/>
+  <rect y="26" width="1000" height="14" fill="#0d0e11"/>
+  <circle cx="26" cy="20" r="4.5" fill="#3f434d"/>
+  <circle cx="46" cy="20" r="4.5" fill="#3f434d"/>
+  <circle cx="66" cy="20" r="4.5" fill="#0ea5ff"/>
+  <text x="500" y="25" text-anchor="middle" fill="#6b7280" font-family="Consolas, monospace" font-size="12" letter-spacing="1.5">TERMINAL COMMANDS — princeprajapati7561-cell@developer-console</text>
+
+  <g transform="translate(36,72)">
+    <text font-family="Consolas, monospace" font-size="15" fill="#0ea5ff">$ <tspan fill="#ffffff">whoami --deep-scan</tspan></text>
+
+    <text y="40" class="out o0" fill="#9ca3af">→ name        : Prince Prajapati</text>
+    <text y="70" class="out o1" fill="#9ca3af">→ roles       : Software Engineer · Python Dev · Flutter Dev · AI Engineer · QA Engineer</text>
+    <text y="100" class="out o2" fill="#9ca3af">→ focus       : Computer Vision, Applied ML, Cross-platform Systems</text>
+    <text y="130" class="out o3" fill="#9ca3af">→ mission     : build world-class AI products that solve real problems</text>
+
+    <text y="176" class="out o4" fill="#0ea5ff">$ <tspan fill="#ffffff">git config --get user.github</tspan></text>
+    <text y="206" class="out o4" fill="#9ca3af">→ princeprajapati7561-cell</text>
+
+    <text y="242" class="out o5" fill="#0ea5ff">$ echo $STATUS  →  <tspan fill="#ffffff">"available for opportunities"</tspan><tspan class="cursor" fill="#0ea5ff">▍</tspan></text>
+  </g>
+</svg>

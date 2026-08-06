@@ -1,0 +1,86 @@
+<svg width="1000" height="460" viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fillGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5ff"/>
+      <stop offset="100%" stop-color="#5ec9ff"/>
+    </linearGradient>
+    <linearGradient id="fillGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#0ea5ff"/>
+    </linearGradient>
+    <linearGradient id="mPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0b0d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <style>
+      .lbl { font-family: Consolas, Menlo, monospace; font-size: 14px; fill: #d1d5db; }
+      .pct { font-family: Consolas, Menlo, monospace; font-size: 13px; fill: #0ea5ff; }
+      @keyframes glow { 0%,100%{opacity:.6;} 50%{opacity:1;} }
+      .node{ animation: glow 2.4s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="460" rx="12" fill="url(#mPanel)" stroke="#1c1d21" stroke-width="1.5"/>
+  <text x="40" y="46" font-family="Consolas, monospace" font-size="15" fill="#6b7280" letter-spacing="2">NEURAL ENGINE // CORE PROFICIENCY SCAN</text>
+  <line x1="40" y1="58" x2="960" y2="58" stroke="#1c1d21" stroke-width="1"/>
+
+  <g font-family="Consolas, monospace">
+    <text x="40" y="98" class="lbl">PYTHON</text>
+    <rect x="220" y="84" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="84" height="12" rx="6" fill="url(#fillGrad)" width="0">
+      <animate attributeName="width" from="0" to="521" dur="1.6s" fill="freeze" begin="0.1s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="95" class="pct">93%</text>
+
+    <text x="40" y="138" class="lbl">FLUTTER · DART</text>
+    <rect x="220" y="124" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="124" height="12" rx="6" fill="url(#fillGrad)" width="0">
+      <animate attributeName="width" from="0" to="487" dur="1.6s" fill="freeze" begin="0.25s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="135" class="pct">87%</text>
+
+    <text x="40" y="178" class="lbl">MACHINE LEARNING · OPENCV</text>
+    <rect x="220" y="164" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="164" height="12" rx="6" fill="url(#fillGrad2)" width="0">
+      <animate attributeName="width" from="0" to="459" dur="1.6s" fill="freeze" begin="0.4s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="175" class="pct">82%</text>
+
+    <text x="40" y="218" class="lbl">FASTAPI · BACKEND SYSTEMS</text>
+    <rect x="220" y="204" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="204" height="12" rx="6" fill="url(#fillGrad)" width="0">
+      <animate attributeName="width" from="0" to="470" dur="1.6s" fill="freeze" begin="0.55s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="215" class="pct">84%</text>
+
+    <text x="40" y="258" class="lbl">FIREBASE · SUPABASE</text>
+    <rect x="220" y="244" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="244" height="12" rx="6" fill="url(#fillGrad2)" width="0">
+      <animate attributeName="width" from="0" to="442" dur="1.6s" fill="freeze" begin="0.7s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="255" class="pct">79%</text>
+
+    <text x="40" y="298" class="lbl">REACT</text>
+    <rect x="220" y="284" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="284" height="12" rx="6" fill="url(#fillGrad)" width="0">
+      <animate attributeName="width" from="0" to="392" dur="1.6s" fill="freeze" begin="0.85s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="295" class="pct">70%</text>
+
+    <text x="40" y="338" class="lbl">QA · GIT · GITHUB WORKFLOWS</text>
+    <rect x="220" y="324" width="560" height="12" rx="6" fill="#151619"/>
+    <rect x="220" y="324" height="12" rx="6" fill="url(#fillGrad2)" width="0">
+      <animate attributeName="width" from="0" to="504" dur="1.6s" fill="freeze" begin="1s" calcMode="spline" keySplines="0.2 0.8 0.2 1"/>
+    </rect>
+    <text x="800" y="335" class="pct">90%</text>
+  </g>
+
+  <line x1="40" y1="368" x2="960" y2="368" stroke="#1c1d21" stroke-width="1"/>
+  <g transform="translate(40,388)">
+    <circle cx="6" cy="-4" r="3.5" fill="#0ea5ff" class="node"/>
+    <text x="18" y="0" font-family="Consolas, monospace" font-size="12" fill="#6b7280">core language / framework</text>
+    <circle cx="230" cy="-4" r="3.5" fill="#ffffff" class="node" style="animation-delay:.6s"/>
+    <text x="242" y="0" font-family="Consolas, monospace" font-size="12" fill="#6b7280">applied / infrastructure</text>
+  </g>
+  <text x="40" y="430" font-family="Consolas, monospace" font-size="12" fill="#3f434d">scan complete — values reflect hands-on project depth, not certification count</text>
+</svg>

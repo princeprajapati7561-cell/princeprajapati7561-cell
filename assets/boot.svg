@@ -1,0 +1,55 @@
+<svg width="1000" height="420" viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b0d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5ff"/>
+      <stop offset="100%" stop-color="#5ec9ff"/>
+    </linearGradient>
+    <style>
+      @keyframes fadeIn { from { opacity: 0; transform: translateX(-6px);} to { opacity: 1; transform: translateX(0);} }
+      @keyframes barGrow { from { width: 0; } to { width: 720px; } }
+      @keyframes blink { 0%,49% { opacity:1;} 50%,100% { opacity:0;} }
+      @keyframes glowPulse { 0%,100%{opacity:.45;} 50%{opacity:1;} }
+      .line { opacity: 0; animation: fadeIn .4s ease-out forwards; font-family: Consolas, Menlo, monospace; font-size: 15px; }
+      .l1 { animation-delay: .2s;} .l2 { animation-delay: .8s;} .l3 { animation-delay: 1.4s;}
+      .l4 { animation-delay: 2.0s;} .l5 { animation-delay: 2.6s;} .l6 { animation-delay: 3.2s;}
+      .l7 { animation-delay: 3.8s;} .l8 { animation-delay: 4.4s;}
+      .bar { animation: barGrow 4.8s cubic-bezier(.2,.8,.2,1) forwards; }
+      .cursor { animation: blink 1s step-end infinite; }
+      .ok { fill: #ffffff; } .warn { fill:#0ea5ff; } .info { fill:#9ca3af; } .dim { fill:#4b5563; } .accent { fill:#0ea5ff; }
+      .ring { animation: glowPulse 2.2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="420" rx="12" fill="url(#panel)" stroke="#1c1d21" stroke-width="1.5"/>
+  <rect x="0" y="0" width="1000" height="42" rx="12" fill="#0d0e11"/>
+  <rect x="0" y="28" width="1000" height="14" fill="#0d0e11"/>
+  <circle cx="28" cy="21" r="4.5" fill="#3f434d"/>
+  <circle cx="48" cy="21" r="4.5" fill="#3f434d"/>
+  <circle cx="68" cy="21" r="4.5" fill="#0ea5ff"/>
+  <text x="500" y="26" text-anchor="middle" fill="#6b7280" font-family="Consolas, monospace" font-size="13" letter-spacing="2">AI BOOT SEQUENCE — princeprajapati7561-cell</text>
+
+  <g transform="translate(40,80)">
+    <text class="line l1 dim">[0000ms] initializing kernel :: identity.core ...</text>
+    <text y="34" class="line l2 info">[0120ms] loading module &gt;&gt; PYTHON_RUNTIME .......... <tspan class="ok">OK</tspan></text>
+    <text y="68" class="line l3 info">[0340ms] loading module &gt;&gt; FLUTTER_ENGINE .......... <tspan class="ok">OK</tspan></text>
+    <text y="102" class="line l4 info">[0560ms] loading module &gt;&gt; COMPUTER_VISION / OPENCV . <tspan class="ok">OK</tspan></text>
+    <text y="136" class="line l5 info">[0780ms] mounting services &gt;&gt; FIREBASE · SUPABASE .... <tspan class="ok">OK</tspan></text>
+    <text y="170" class="line l6 warn">[1020ms] calibrating neural pathways ................ <tspan class="accent">87%</tspan></text>
+    <text y="204" class="line l7 dim">[1240ms] linking QA diagnostics &amp; test harness ....... <tspan class="ok">OK</tspan></text>
+    <text y="238" class="line l8" fill="#ffffff">[1460ms] identity verified :: <tspan font-weight="700">PRINCE PRAJAPATI</tspan> — access granted<tspan class="cursor" fill="#0ea5ff">▍</tspan></text>
+  </g>
+
+  <g transform="translate(40,350)">
+    <rect x="0" y="0" width="720" height="8" rx="4" fill="#151619"/>
+    <rect x="0" y="0" height="8" rx="4" fill="url(#barGrad)" class="bar"/>
+    <text x="740" y="8" fill="#9ca3af" font-family="Consolas, monospace" font-size="12">SYSTEM READY</text>
+  </g>
+
+  <circle class="ring" cx="900" cy="80" r="26" fill="none" stroke="#0ea5ff" stroke-width="1.5"/>
+  <circle class="ring" cx="900" cy="80" r="16" fill="none" stroke="#ffffff" stroke-width="1" style="animation-delay:.5s" opacity="0.5"/>
+  <text x="900" y="85" text-anchor="middle" fill="#0ea5ff" font-family="Consolas, monospace" font-size="10">AI</text>
+</svg>

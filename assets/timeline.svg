@@ -1,0 +1,57 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#0ea5ff"/>
+    </linearGradient>
+    <style>
+      @keyframes fadeUp { from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:translateY(0);} }
+      @keyframes drawLine { from{stroke-dashoffset:1000;} to{stroke-dashoffset:0;} }
+      @keyframes ping { 0%{ r:6; opacity:1;} 100%{ r:22; opacity:0;} }
+      .node { opacity:0; animation: fadeUp .5s ease-out forwards; }
+      .n1{animation-delay:.2s;} .n2{animation-delay:.9s;} .n3{animation-delay:1.6s;} .n4{animation-delay:2.3s;}
+      .track { stroke-dasharray:1000; stroke-dashoffset:1000; animation: drawLine 2.6s ease-out forwards; }
+      .pulse { animation: ping 2s ease-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="320" fill="#000000" rx="12" stroke="#1c1d21"/>
+  <text x="40" y="42" font-family="Consolas, monospace" font-size="15" fill="#6b7280" letter-spacing="2">MISSION TIMELINE // TRAJECTORY LOG</text>
+
+  <path d="M80,170 L300,170 L300,110 L520,110 L520,210 L740,210 L740,150 L920,150" fill="none" stroke="url(#tlLine)" stroke-width="2" class="track"/>
+
+  <g class="node n1">
+    <circle cx="80" cy="170" r="6" fill="#0ea5ff"/>
+    <circle cx="80" cy="170" r="6" fill="none" stroke="#0ea5ff" stroke-width="1.5" class="pulse"/>
+    <text x="80" y="200" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#0ea5ff">FOUNDATIONS</text>
+    <text x="80" y="218" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#9ca3af">Python · Git · QA</text>
+  </g>
+
+  <g class="node n2">
+    <circle cx="300" cy="110" r="6" fill="#ffffff"/>
+    <circle cx="300" cy="110" r="6" fill="none" stroke="#ffffff" stroke-width="1.5" class="pulse" style="animation-delay:.5s"/>
+    <text x="300" y="85" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#0ea5ff">CROSS-PLATFORM</text>
+    <text x="300" y="67" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#9ca3af">Flutter · Dart · Firebase</text>
+  </g>
+
+  <g class="node n3">
+    <circle cx="520" cy="210" r="6" fill="#0ea5ff"/>
+    <circle cx="520" cy="210" r="6" fill="none" stroke="#0ea5ff" stroke-width="1.5" class="pulse" style="animation-delay:1s"/>
+    <text x="520" y="245" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#0ea5ff">APPLIED AI</text>
+    <text x="520" y="263" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#9ca3af">Computer Vision · OpenCV · ML</text>
+  </g>
+
+  <g class="node n4">
+    <circle cx="740" cy="150" r="6" fill="#ffffff"/>
+    <circle cx="740" cy="150" r="6" fill="none" stroke="#ffffff" stroke-width="1.5" class="pulse" style="animation-delay:1.5s"/>
+    <text x="740" y="125" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#0ea5ff">PRODUCT BUILDS</text>
+    <text x="740" y="107" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#9ca3af">ShieldX · AI Reality OS</text>
+  </g>
+
+  <g class="node n4" style="animation-delay:2.8s">
+    <circle cx="920" cy="150" r="8" fill="none" stroke="#0ea5ff" stroke-width="1.5"/>
+    <circle cx="920" cy="150" r="3" fill="#0ea5ff"/>
+    <text x="920" y="180" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#ffffff" font-weight="700">NOW</text>
+  </g>
+</svg>

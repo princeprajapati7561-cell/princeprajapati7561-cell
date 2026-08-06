@@ -1,0 +1,32 @@
+<svg width="1000" height="160" viewBox="0 0 1000 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ea5ff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0ea5ff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes fade { from{opacity:0;} to{opacity:1;} }
+      .sweep { transform-origin: 80px 80px; animation: spin 3.5s linear infinite; }
+      .txt { opacity:0; animation: fade .6s ease-out forwards; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="160" fill="#000000" rx="12" stroke="#1c1d21"/>
+  <circle cx="80" cy="80" r="60" fill="url(#radarGrad)"/>
+  <circle cx="80" cy="80" r="55" fill="none" stroke="#1c1d21" stroke-width="1"/>
+  <circle cx="80" cy="80" r="37" fill="none" stroke="#1c1d21" stroke-width="1"/>
+  <circle cx="80" cy="80" r="19" fill="none" stroke="#1c1d21" stroke-width="1"/>
+  <line x1="20" y1="80" x2="140" y2="80" stroke="#1c1d21" stroke-width="1"/>
+  <line x1="80" y1="20" x2="80" y2="140" stroke="#1c1d21" stroke-width="1"/>
+  <g class="sweep">
+    <path d="M80,80 L80,20 A60,60 0 0,1 132,50 Z" fill="#0ea5ff" opacity="0.18"/>
+  </g>
+  <circle cx="100" cy="60" r="3" fill="#ffffff"/>
+  <circle cx="60" cy="100" r="3" fill="#0ea5ff"/>
+  <circle cx="110" cy="105" r="3" fill="#ffffff"/>
+
+  <text x="180" y="60" class="txt" style="animation-delay:.1s" font-family="Consolas, monospace" font-size="13" fill="#6b7280" letter-spacing="2">SCANNING ACTIVE DEPLOYMENTS</text>
+  <text x="180" y="95" class="txt" style="animation-delay:.35s" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="28" fill="#ffffff">MISSION CONTROL // PROJECT LAUNCHER</text>
+  <text x="180" y="125" class="txt" style="animation-delay:.6s" font-family="Consolas, monospace" font-size="13" fill="#0ea5ff">3 systems deployed &#160;·&#160; 1 in active development &#160;·&#160; all signals nominal</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .tile { fill: #0a0b0d; stroke: #1c1d21; stroke-width: 1; }
+      .glyph { fill: none; stroke: #0ea5ff; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+      .lbl { font-family: Consolas, Menlo, monospace; font-size: 11px; fill: #9ca3af; }
+      @keyframes rise { from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);} }
+      .icon { opacity:0; animation: rise .45s ease-out forwards; }
+      .i0{animation-delay:.05s;} .i1{animation-delay:.15s;} .i2{animation-delay:.25s;} .i3{animation-delay:.35s;}
+      .i4{animation-delay:.45s;} .i5{animation-delay:.55s;} .i6{animation-delay:.65s;} .i7{animation-delay:.75s;}
+      .i8{animation-delay:.85s;} .i9{animation-delay:.95s;}
+    </style>
+  </defs>
+  <rect width="1000" height="140" fill="#000000" rx="12"/>
+
+  <!-- Python -->
+  <g class="icon i0" transform="translate(20,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <path class="glyph" d="M40,18 C30,18 26,22 26,30 L26,38 L46,38 L46,42 L20,42 C14,42 10,46 10,56 C10,66 14,70 20,70 L26,70 L26,60 C26,52 30,48 40,48 L52,48 C60,48 64,44 64,36 L64,28 C64,20 58,18 52,18 Z" transform="translate(3,0)"/>
+    <circle cx="34" cy="27" r="2" fill="#0ea5ff"/>
+    <circle cx="46" cy="63" r="2" fill="#0ea5ff"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">PYTHON</text>
+  </g>
+
+  <!-- Flutter -->
+  <g class="icon i1" transform="translate(112,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <path class="glyph" d="M24,50 L50,24 L64,24 L38,50 Z"/>
+    <path class="glyph" d="M38,50 L64,50 L48,66 L34,52 Z"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">FLUTTER</text>
+  </g>
+
+  <!-- Dart -->
+  <g class="icon i2" transform="translate(204,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <polygon class="glyph" points="24,56 44,24 64,32 56,56 40,64"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">DART</text>
+  </g>
+
+  <!-- Firebase -->
+  <g class="icon i3" transform="translate(296,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <path class="glyph" d="M28,62 L36,20 L48,42 L54,34 L58,62 Z"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">FIREBASE</text>
+  </g>
+
+  <!-- Supabase -->
+  <g class="icon i4" transform="translate(388,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <path class="glyph" d="M46,20 L28,48 L40,48 L34,64 L54,36 L42,36 Z"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">SUPABASE</text>
+  </g>
+
+  <!-- FastAPI -->
+  <g class="icon i5" transform="translate(480,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <circle class="glyph" cx="40" cy="42" r="20"/>
+    <path class="glyph" d="M44,26 L32,44 L42,44 L36,58"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">FASTAPI</text>
+  </g>
+
+  <!-- Git -->
+  <g class="icon i6" transform="translate(572,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <circle class="glyph" cx="40" cy="26" r="5"/>
+    <circle class="glyph" cx="40" cy="58" r="5"/>
+    <circle class="glyph" cx="56" cy="42" r="5"/>
+    <path class="glyph" d="M40,31 L40,53 M40,42 L51,42"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">GIT</text>
+  </g>
+
+  <!-- GitHub -->
+  <g class="icon i7" transform="translate(664,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <path class="glyph" d="M40,20 C28,20 20,28 20,40 C20,50 26,56 34,58 C36,58 36,57 36,55 L36,50 C30,51 28,47 28,47 C27,44 25,43 25,43 C22,41 25,41 25,41 C28,41 30,44 30,44 C33,49 38,47 40,46 C40,44 41,42 42,41 C35,40 29,38 29,29 C29,26 30,24 32,22 C31,21 30,18 32,15 C32,15 35,14 40,17 C42,16 46,16 48,17 C53,14 56,15 56,15 C58,18 57,21 56,22 C58,24 59,26 59,29 C59,38 53,40 46,41 C47,42 48,44 48,47 L48,55 C48,57 48,58 50,58 C58,56 64,50 64,40 C64,28 56,20 40,20 Z"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">GITHUB</text>
+  </g>
+
+  <!-- React -->
+  <g class="icon i8" transform="translate(756,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <circle class="glyph" cx="40" cy="42" r="4" fill="#0ea5ff"/>
+    <ellipse class="glyph" cx="40" cy="42" rx="22" ry="9"/>
+    <ellipse class="glyph" cx="40" cy="42" rx="22" ry="9" transform="rotate(60 40 42)"/>
+    <ellipse class="glyph" cx="40" cy="42" rx="22" ry="9" transform="rotate(120 40 42)"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">REACT</text>
+  </g>
+
+  <!-- OpenCV -->
+  <g class="icon i9" transform="translate(848,15)">
+    <rect class="tile" width="80" height="80" rx="14"/>
+    <circle class="glyph" cx="30" cy="34" r="8"/>
+    <circle class="glyph" cx="52" cy="34" r="8"/>
+    <circle class="glyph" cx="40" cy="54" r="8"/>
+    <text x="40" y="112" text-anchor="middle" class="lbl">OPENCV</text>
+  </g>
+</svg>

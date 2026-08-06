@@ -1,0 +1,20 @@
+<svg width="1000" height="50" viewBox="0 0 1000 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#0ea5ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="80%" stop-color="#0ea5ff"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes travel { 0% { transform: translateX(-40px); opacity:0; } 10%{opacity:1;} 90%{opacity:1;} 100% { transform: translateX(1040px); opacity:0; } }
+      .node { animation: travel 3.6s linear infinite; }
+    </style>
+  </defs>
+  <line x1="0" y1="25" x2="1000" y2="25" stroke="url(#dGrad)" stroke-width="1"/>
+  <circle cx="0" cy="25" r="3.5" fill="#0ea5ff" class="node"/>
+  <circle cx="0" cy="25" r="3.5" fill="#ffffff" class="node" style="animation-delay:1.2s"/>
+  <circle cx="0" cy="25" r="3.5" fill="#0ea5ff" class="node" style="animation-delay:2.4s"/>
+  <polygon points="490,17 510,25 490,33" fill="#000000" stroke="#0ea5ff" stroke-width="1.2"/>
+</svg>
